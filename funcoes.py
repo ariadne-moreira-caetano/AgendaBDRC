@@ -6,7 +6,6 @@ def bemvindo():
 	print("2  Listar os contatos da agenda")
 
 #Funcoes do processo
-def adicionar():
 	print("Adicionar um registro")
 	agenda = open("agendatelefonica.csv",'a')
 	nome = input("Nome do Contato:")
@@ -23,7 +22,7 @@ def listar():
 	print("Lista de Contatos")
 	agenda = open("agendatelefonica.csv")
 	numero = 0
-	while numero < 25:
+	whhe numero < 25:
 	 	print (agenda.readline())
 	 	numero = numero + 1
 	print("Listado correctamente")
