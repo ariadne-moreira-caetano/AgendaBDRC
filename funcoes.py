@@ -1,5 +1,5 @@
 #Mensagem de Bem Vindo e Opcoes ao Usuario
-def bemvindo():
+def bemvindo()
 	print("Bem Vindo a Agenda")
 	print("Selecione uma Opcao")
 	print("1  Adicionar um novo contato")
@@ -11,7 +11,7 @@ def adicionar():
 	agenda = open("agendatelefonica.csv",'a')
 	nome = input("Nome do Contato:")
 	telefone = input("Digite o telefone:")
-	print("Contato salvo com nome:",nome," e numero",telefone)
+	print("Contato salvo com nome:",nome," e numero",nome)
 	agenda.write(nome)
 	agenda.write(",")
 	agenda.write(telefone)
